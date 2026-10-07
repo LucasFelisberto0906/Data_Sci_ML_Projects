@@ -1,0 +1,41 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Segredos e configuração local
+.env
+*.key
+secrets.json
+
+# Dados (normalmente pesados e/ou sensíveis)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.zip
+
+# Modelos treinados
+models/*.pkl
+models/*.joblib
+*.h5
+*.pt
+
+# Logs
+*.log
+logs/
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
